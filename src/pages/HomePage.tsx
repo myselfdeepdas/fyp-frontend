@@ -15,7 +15,7 @@ const HomePage = () => {
   return (
     <div className="flex flex-col gap-12">
       <div className="md:px-32 bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-16">
-        <h1 className="text-5xl font-bold tracking-tight text-orange-600">
+        <h1 className="text-5xl font-bold tracking-tight text-purple-700">
           Tuck into a takeway today
         </h1>
         <span className="text-xl">Food is just a click away!</span>
@@ -31,8 +31,7 @@ const HomePage = () => {
             Order takeaway even faster!
           </span>
           <span>
-            Download the MernEats App for faster ordering and personalised
-            recommendations
+          Get the KhanaKrazee App for quicker orders and tailored recommendations! Experience seamless ordering and discover personalized suggestions just for you.
           </span>
           <img src={appDownloadImage} />
         </div>
