@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       colors: {
         custom_colour: "#5A2989",
+        nav_bar: "#00F3BB",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

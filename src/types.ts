@@ -39,9 +39,10 @@ export type Order = {
   restaurant: Restaurant;
   user: User;
   cartItems: {
+    price: number;
     menuItemId: string;
     name: string;
-    quantity: string;
+    quantity: number;
   }[];
   deliveryDetails: {
     name: string;

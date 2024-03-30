@@ -1,4 +1,4 @@
-import landingImage from "../assets/landing.png";
+import landingImage from "../assets/landing1.png";
 import appDownloadImage from "../assets/appDownload.png";
 import SearchBar, { SearchForm } from "@/components/SearchBar";
 import { useNavigate } from "react-router-dom";
@@ -27,8 +27,12 @@ const HomePage = () => {
       <div className="grid md:grid-cols-2 gap-5">
         <img src={landingImage} />
         <div className="flex flex-col items-center justify-center gap-4 text-center">
+          <h1 className="text-3xl font-bold tracking-tight text-black">App comming sooon!!!!</h1>
           <span className="font-bold text-3xl tracking-tighter">
-            Order takeaway even faster!
+            Order takeaway even faster!                                  
+
+          
+          
           </span>
           <span>
           Get the KhanaKrazee App for quicker orders and tailored recommendations! Experience seamless ordering and discover personalized suggestions just for you.
