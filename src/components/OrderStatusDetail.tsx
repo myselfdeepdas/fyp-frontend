@@ -8,7 +8,7 @@ type Props = {
 const OrderStatusDetail = ({ order }: Props) => {
   const formattedTotal =
   typeof order.totalAmount === "number"
-    ? (order.totalAmount / 100).toFixed(2)
+    ? (order.totalAmount /100 ).toFixed(2)
     : "0.00";
   return (
     <div className="space-y-5">
